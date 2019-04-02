@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "allowJs": false,
+    "declarationDir": "./dist/typing",
+    "lib": [
+      "webworker",
+      "es6",
+      "es5",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_moudles",
+    "dist"
+  ]
+}
